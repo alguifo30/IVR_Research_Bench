@@ -980,7 +980,7 @@
       </nav>
       <nav class="subnav" data-app-subnav="proposal" aria-label="Contenido de la propuesta">
         <span class="page-context-label">PROPUESTA</span>
-        <span style="font-family:var(--body); font-size:12.5px; color:var(--ink-dim); padding:7px 4px;">Rediseño basado en ~1.43M interacciones reales</span>
+        <span style="font-family:var(--body); font-size:12.5px; color:var(--ink-dim); padding:7px 4px;">Rediseño del árbol IVR</span>
       </nav>
     </div>
   </div>
@@ -2553,211 +2553,9 @@ BBVA · Cliente Premium (ver pestaña "Diagrama de flujo")
 
 <section class="bank-section" data-app-page="proposal" id="propuesta" style="--accent:var(--propuesta); border-bottom:none;">
   <div class="wrap">
-    <div class="bank-head">
-      <span class="num-badge">TO BE</span>
-      <h2>PROPUESTA</h2>
-      <div class="bank-tagline">Rediseño basado en ~1.43M interacciones reales</div>
-    </div>
-
-    <div class="id-panel" style="max-width:760px; margin-bottom:32px;">
-      <p class="desc">Rediseño del árbol IVR basado en 1,434,114 interacciones reales (ene–jul 2026): menos niveles, agrupado por <b>intención</b> — no por producto —, con <b>bloqueo y consumo no reconocido como rutas críticas separadas</b> en primera línea.</p>
-      <div class="chip-row">
-        <span class="chip tag-good">L1: 4 opciones — 2 críticas + 2 por intención</span>
-        <span class="chip tag-good">Bloqueo (0) y consumo no reconocido (1) separados</span>
-        <span class="chip">80% del volumen en 6–7 macro categorías</span>
-      </div>
-    </div>
-
-    <div class="story-stats">
-      <div><div class="n">1.43M</div><div class="l">interacciones analizadas · ene–jul 2026</div></div>
-      <div><div class="n">131.5K</div><div class="l">consumos no reconocidos TC+TD — la intención N.º 1 del cliente</div></div>
-      <div><div class="n">80%</div><div class="l">del volumen cabe en solo 6–7 macro categorías</div></div>
-      <div><div class="n">8–10 → 4</div><div class="l">opciones en el primer nivel del IVR</div></div>
-    </div>
-
-    <div class="vol-section-head">
-      <h3>Volumetría y data</h3>
-      <p class="vol-sub">Volumen, prioridades y criterios que sustentan las decisiones del rediseño.</p>
-    </div>
-
-    <div class="vol-card">
-      <h4>Agrupación por macro-intención</h4>
-      <p class="vol-sub">7 macro categorías concentran +100 taxonomías L3 — la base de las 4 rutas del nuevo IVR</p>
-      <div class="bar-row"><div class="bar-label">Tarjetas de crédito</div><div class="bar-track"><div class="bar-fill" style="width:100%"></div></div><div class="bar-value">~200K+</div></div>
-      <div class="bar-row"><div class="bar-label">Seguridad / fraude</div><div class="bar-track"><div class="bar-fill" style="width:70%"></div></div><div class="bar-value">~130–150K</div></div>
-      <div class="bar-row"><div class="bar-label">Cuentas y ahorros</div><div class="bar-track"><div class="bar-fill" style="width:60%"></div></div><div class="bar-value">~120K+</div></div>
-      <div class="bar-row"><div class="bar-label">Pedidos / entregas / tienda</div><div class="bar-track"><div class="bar-fill" style="width:50%"></div></div><div class="bar-value">~100K</div></div>
-      <div class="bar-row"><div class="bar-label">Banca digital / App</div><div class="bar-track"><div class="bar-fill" style="width:37.5%"></div></div><div class="bar-value">~70–80K</div></div>
-      <div class="bar-row"><div class="bar-label">Datos personales</div><div class="bar-track"><div class="bar-fill" style="width:15%"></div></div><div class="bar-value">~30K</div></div>
-      <div class="bar-row"><div class="bar-label">Reclamos / seguimiento</div><div class="bar-track"><div class="bar-fill" style="width:11.25%"></div></div><div class="bar-value">~20–25K</div></div>
-    </div>
-
-    <div class="vol-card">
-      <h4>Top 6 tipologías → primeras opciones del árbol</h4>
-      <p class="vol-sub">Las de mayor volumen definen el orden del nuevo IVR</p>
-      <table class="vol-table rank-table">
-        <thead><tr><th>#</th><th>Tipología</th><th>Vol.</th><th>Dónde queda</th></tr></thead>
-        <tbody>
-          <tr><td class="rk">1</td><td class="label">Consumos no reconocidos TC</td><td>86,820</td><td><b>Opción 1</b> · Consumo no reconocido</td></tr>
-          <tr><td class="rk">2</td><td class="label">Movimientos Ahorros</td><td>77,763</td><td>Opción 2 → Saldos y mov. (1ª)</td></tr>
-          <tr><td class="rk">3</td><td class="label">Coordinar entrega TC</td><td>66,256</td><td>Opción 3 → Seguimiento (1ª)</td></tr>
-          <tr><td class="rk">4</td><td class="label">Consumos no reconocidos TD</td><td>44,766</td><td><b>Opción 1</b> · Consumo no reconocido</td></tr>
-          <tr><td class="rk">5</td><td class="label">Error ingreso APP/BPI</td><td>41,038</td><td>Opción 2 → App y digital (1ª)</td></tr>
-          <tr><td class="rk">6</td><td class="label">Importe a pagar TC</td><td>38,616</td><td>Opción 2 → Saldos y mov. (2ª)</td></tr>
-        </tbody>
-      </table>
-    </div>
-
-    <div class="vol-card">
-      <h4>Matriz IVR: qué mantener, agrupar o retirar</h4>
-      <p class="vol-sub">Resumen ejecutivo del flujo original (fuente: IVR_opciones). 💬 = la resolución también se puede enviar por WhatsApp · 📱 = por App, sin salir de la opción del árbol</p>
-      <div class="quad-matrix">
-        <div class="quad-col keep">
-          <h5>✅ Mantener (12)</h5>
-          <div class="quad-sub">Opción propia y visible en el árbol</div>
-          <ul>
-            <li>Cuentas de ahorro</li>
-            <li>Tarjeta de crédito</li>
-            <li>Consultas de tarjetas y cuentas</li>
-            <li>Estado de pedido / reclamo <span class="chan">💬</span></li>
-            <li>Saldos ahorros <span class="chan">💬</span></li>
-            <li>Movimientos ahorros <span class="chan">💬</span></li>
-            <li>Saldos TC <span class="chan">💬</span></li>
-            <li>Movimientos TC <span class="chan">💬</span></li>
-            <li>Importe y fecha de pago <span class="chan">💬</span></li>
-            <li>Pase a cuotas <span class="chan">📱</span></li>
-            <li>Comunicación con asesor</li>
-            <li>Transferencias / remesas (consolidado) <span class="chan">💬</span></li>
-          </ul>
-        </div>
-        <div class="quad-col group">
-          <h5>🟡 Agrupar (8)</h5>
-          <div class="quad-sub">Sigue existiendo, sin menú propio</div>
-          <ul>
-            <li>CTS</li>
-            <li>Cuenta corriente</li>
-            <li>Estado de remesa <span class="chan">💬</span></li>
-            <li>Incremento de línea <span class="chan">📱</span></li>
-            <li>Envío de estado de cuenta <span class="chan">💬</span></li>
-            <li>Extracash <span class="chan">📱</span></li>
-            <li>Préstamo personal <span class="chan">📱</span></li>
-            <li>Compra de deuda / deuda TC <span class="chan">💬</span></li>
-          </ul>
-        </div>
-        <div class="quad-col remove">
-          <h5>❌ Retirar (4)</h5>
-          <div class="quad-sub">Sin volumen suficiente para ocupar el árbol</div>
-          <ul>
-            <li>Información y saldo Millas Benefit <span class="chan">📱</span></li>
-            <li>Activar cuenta sueldo (ahorros/TC) <span class="chan">📱</span></li>
-            <li>Participación en promociones / campañas</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="vol-card">
-      <h4>Antes vs. después — resumen ejecutivo del rediseño</h4>
-      <p class="vol-sub">Qué cambia estructuralmente con la propuesta, en una lectura de 30 segundos</p>
-      <div class="compare-panel">
-        <div class="compare-col before">
-          <h5>Situación actual (data + benchmark)</h5>
-          <ul>
-            <li><b>8–10 opciones</b> potenciales en Nivel 1, organizadas por producto</li>
-            <li>Fraude y bloqueo <b>mezclados</b> entre sí o con consultas de bajo riesgo</li>
-            <li>Consumo no reconocido (~131.5K llamadas) <b>enterrado</b> en submenús de consultas</li>
-            <li>La validación robusta actual depende de atención asistida; no existe un mecanismo fuerte pensado para autoservicio IVR de información sensible</li>
-            <li>Menús que replican la taxonomía L3 operativa (CVV, Plin, membresía como opciones propias)</li>
-            <li>Sin constancia consistente al cerrar una gestión</li>
-          </ul>
-        </div>
-        <div class="compare-col after">
-          <h5>Propuesta</h5>
-          <ul>
-            <li><b>4 opciones</b> en Nivel 1, organizadas por intención — 2 críticas + 2 generales</li>
-            <li>Bloqueo y consumo no reconocido <b>separados</b> y ambos en primera línea</li>
-            <li>Consumo no reconocido con <b>atajo directo</b> desde el saludo inicial</li>
-            <li>Autenticación <b>adaptativa</b>: bloqueo solo con documento, validación completa solo si el celular no coincide</li>
-            <li>Menús por <b>macro-intención</b>; el detalle L3 vive dentro del flujo, no en el menú</li>
-            <li><b>Código de gestión</b> + confirmación al correo registrado + WhatsApp como respaldo</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <div class="vol-card">
-      <h4>KPIs de éxito post-implementación</h4>
-      <p class="vol-sub">Baseline actual (donde hay dato) vs. meta del rediseño — foco en las dos rutas críticas</p>
-      <div class="kpi-cards">
-        <div class="kpi-card">
-          <div class="kpi-name">% error de selección</div>
-          <div class="kpi-why">Sin baseline medido hoy. Driver estructural: <b>8–10 → 4</b> opciones en L1</div>
-        </div>
-        <div class="kpi-card">
-          <div class="kpi-name">% recontacto</div>
-          <div class="kpi-why">Sin baseline medido hoy. Meta: reducir vía menús por intención</div>
-        </div>
-        <div class="kpi-card">
-          <div class="kpi-name">FCR — primer contacto</div>
-          <div class="kpi-why">Baseline: <b>~75% promedio</b> (9 tipologías con dato, 59%–84%)</div>
-        </div>
-        <div class="kpi-card">
-          <div class="kpi-name">Abandono del IVR</div>
-          <div class="kpi-why">Baseline: <b>116,649 casos · 8.1%</b> del total (1.43M)</div>
-        </div>
-      </div>
-    </div>
-
-    <div class="vol-card" style="margin-bottom:32px;">
-      <h4>Reglas del rediseño</h4>
-      <ol style="margin-top:10px; padding-left:18px; color:var(--ink-dim); font-size:12.5px; line-height:1.7;">
-        <li><b style="color:var(--ink);">Nivel 1 ≤ 4 opciones</b> (2 críticas + 2 por intención) · Nivel 2 ≤ 4 · máximo 3 niveles.</li>
-        <li><b style="color:var(--ink);">Diseño por intención, no por producto:</b> contención / reporte de fraude / operación / seguimiento.</li>
-        <li><b style="color:var(--ink);">Nunca replicar la taxonomía L3</b> en el menú — vive dentro del flujo, no como opción propia.</li>
-        <li><b style="color:var(--ink);">Medir después de implementar:</b> % error de selección, % recontacto, FCR, abandono.</li>
-      </ol>
-    </div>
-
-    <div class="story-arc">
-      <h4>De la data a la decisión</h4>
-      <p class="vol-sub">Cuatro hallazgos, cuatro decisiones.</p>
-
-      <div class="story-step">
-        <div class="num">01</div>
-        <div>
-          <div class="headline">Bloquear y reportar un consumo no reconocido no son la misma conversación</div>
-          <div class="decision">131.5K llamadas (TC + TD) son la intención N.º 1 del cliente, hoy enterrada en consultas. <b>Decisión →</b> dos rutas críticas en primera línea: <b>0 Bloqueo</b> · <b>1 Consumo no reconocido</b>.</div>
-        </div>
-      </div>
-
-      <div class="story-step">
-        <div class="num">02</div>
-        <div>
-          <div class="headline">+100 categorías, pero el cliente solo piensa en 5 cosas</div>
-          <div class="decision">Error APP, fallas, Plin, biometría… son un solo problema: "tengo problemas con la app." <b>Decisión →</b> menús por <b>macro-intención</b>, nunca por taxonomía L3.</div>
-        </div>
-      </div>
-
-      <div class="story-step">
-        <div class="num">03</div>
-        <div>
-          <div class="headline">La data ya agrupa el volumen en 4 macrocategorías — el árbol actual, no</div>
-          <div class="decision">Seguridad, tarjetas/cuentas, digital y seguimiento explican casi todo el volumen. <b>Decisión →</b> simplificación agresiva: <b>L1 ≤ 4 · L2 ≤ 4 · máximo 3 niveles</b>.</div>
-        </div>
-      </div>
-
-      <div class="story-step">
-        <div class="num">04</div>
-        <div>
-          <div class="headline">Identificar a quien llama no es lo mismo que dejarle ver sus movimientos</div>
-          <div class="decision">Consumo no reconocido es la única ruta del árbol que expone comercio, monto y fecha. El DNI identifica, pero no habilita. <b>Decisión →</b> <b>doble factor obligatorio</b> antes de leer información sensible: sesión en la App, seguida de validación facial específica de la consulta y token digital ligado al dispositivo. El IVR no pide ni valida nada — sólo espera el resultado. Si cualquiera de los dos factores falla, el IVR no muestra nada y deriva al especialista.</div>
-        </div>
-      </div>
-    </div>
-
     <div class="vol-card" id="cnr-propuesta"><div style="padding:18px;border:1px solid #ccc;margin:16px 0"><b>Alternativa: sesión en App + token temporal</b><p>Push → inicio de sesión (clave o biometría) → autorización de la consulta → nueva validación facial → aviso interno del token → ingreso del token → consulta. Los factores de la consulta son facial (inherencia) y token del dispositivo afiliado (posesión). Repetir el rostro no crea una categoría adicional.</p><p>Demo de experiencia, no certificación de cumplimiento SBS. En producción, el servidor debe verificar ambos factores, la credencial del dispositivo afiliado, la llamada, el alcance, la caducidad y el uso único. Un código dibujado en la interfaz no acredita posesión. La notificación externa nunca contiene el token. No habilita desbloqueos: estos requieren autorización específica.</p><p>Tiempos propuestos para demostración: aviso 10 s; token 60 s. La expiración permite hasta dos renovaciones, sin reiniciar los intentos fallidos.</p></div>
       <h4>Consumo no reconocido · el flujo propuesto</h4>
-      <p class="vol-sub">131.5K llamadas al año (TC 86,820 + TD 44,766): la intención N.º 1 del cliente y la única del árbol que expone información sensible. Por eso tiene ruta propia en el Nivel 1, una validación propia — y una sola razón de ser: decidir qué pasa con el bloqueo temporal que la alerta ya aplicó.</p>
+      
 
       <div class="op-route-note">
         <b>Ruta principal · validación aprobada</b>
@@ -2851,7 +2649,7 @@ BBVA · Cliente Premium (ver pestaña "Diagrama de flujo")
 
     <div class="vol-card" id="coord-propuesta">
       <h4>Primera coordinación de entrega · el flujo propuesto</h4>
-      <p class="vol-sub">66,256 llamadas al año: la tipología #3 del ranking. Hoy la App solo ofrece coordinar justo después del bloqueo, y quien cierra esa pantalla pierde la opción y termina llamando. En el árbol propuesto vive en <b>2 · Consultas y operaciones → 2 · Tarjetas y otros productos</b>, como primera opción del submenú por volumen.</p>
+      <p class="vol-sub">Hoy la App solo ofrece coordinar justo después del bloqueo, y quien cierra esa pantalla pierde la opción y termina llamando. En el árbol propuesto vive en <b>2 · Consultas y operaciones → 2 · Tarjetas y otros productos</b>, como primera opción del submenú.</p>
 
       <div class="op-route-note">
         <b>Ruta principal · coordinación registrada</b>
@@ -2942,7 +2740,7 @@ BBVA · Cliente Premium (ver pestaña "Diagrama de flujo")
                   </ul>
                 </li>
                 <li>
-                  <div class="flow-node critical">1 · Consumo no reconocido<span class="fn-vol">~131.5K llamadas · TC 86.8K + TD 44.8K</span></div>
+                  <div class="flow-node critical">1 · Consumo no reconocido</div>
                   <ul>
                     <li>
                       <div class="flow-node">Autenticación inicial<span class="fn-vol">DNI · caso demo 12345678 · cliente reconocido</span></div>
@@ -2984,10 +2782,10 @@ BBVA · Cliente Premium (ver pestaña "Diagrama de flujo")
                   </ul>
                 </li>
                 <li>
-                  <div class="flow-node">2 · Consultas y operaciones<span class="fn-vol">~50–60% del volumen total</span></div>
+                  <div class="flow-node">2 · Consultas y operaciones</div>
                   <ul>
                     <li>
-                      <div class="flow-node">1 · Saldos, movimientos y EECC<span class="fn-vol">~110K</span></div>
+                      <div class="flow-node">1 · Saldos, movimientos y EECC</div>
                       <ul>
                         <li><div class="flow-node terminal-ok">Movimientos (ahorros o TC) 💬</div></li>
                         <li><div class="flow-node terminal-ok">Importe y fecha de pago TC 💬</div></li>
@@ -2999,7 +2797,7 @@ BBVA · Cliente Premium (ver pestaña "Diagrama de flujo")
                       <div class="flow-node">2 · Tarjetas y otros productos</div>
                       <ul>
                         <li>
-                          <div class="flow-node">1 · Coordinación de entrega<span class="fn-vol">66,256 · #3 del ranking</span></div>
+                          <div class="flow-node">1 · Coordinación de entrega</div>
                           <ul>
                             <li>
                               <div class="flow-node">Clave secreta de la tarjeta<span class="fn-vol">4 dígitos · autoriza la gestión, no la identidad</span></div>
@@ -3023,7 +2821,7 @@ BBVA · Cliente Premium (ver pestaña "Diagrama de flujo")
                       </ul>
                     </li>
                     <li>
-                      <div class="flow-node">3 · App, banca digital y datos<span class="fn-vol">~100K + 29K</span></div>
+                      <div class="flow-node">3 · App, banca digital y datos</div>
                       <ul>
                         <li>
                           <div class="flow-node">No puedo ingresar a la app</div>
@@ -3053,7 +2851,7 @@ BBVA · Cliente Premium (ver pestaña "Diagrama de flujo")
                   </ul>
                 </li>
                 <li>
-                  <div class="flow-node">3 · Seguimiento<span class="fn-vol">entregas 66K + reclamos 22K</span></div>
+                  <div class="flow-node">3 · Seguimiento</div>
                   <ul>
                     <li><div class="flow-node terminal-ok">Entrega o renovación de tarjeta 💬</div></li>
                     <li><div class="flow-node terminal-ok">Estado de reclamo 💬</div></li>
@@ -4430,16 +4228,15 @@ BBVA · Cliente Premium (ver pestaña "Diagrama de flujo")
 (()=>{
  const root=document.querySelector('#propuesta > .wrap');if(!root)return;
  const original=[...root.children];
- const hero=document.createElement('div');hero.className='proposal-hero';hero.innerHTML='<div><span class="proposal-eyebrow">PROPUESTA · EXPERIENCIA INTERACTIVA</span><h2>Prueba una llamada.<br>Descubre el nuevo IVR.</h2><p>Dos rutas de seguridad desde el inicio. Menos pasos para encontrar ayuda y una autorización específica antes de consultar tus alertas.</p><button class="proposal-start" type="button">Probar consumo no reconocido →</button></div><ol class="proposal-path"><li><b>01 · Explora</b>Recorre el simulador con datos de prueba.</li><li><b>02 · Comprende</b>Separa ingreso, validación facial y token.</li><li><b>03 · Sustenta</b>Consulta los flujos y la data del rediseño.</li></ol>';
+ const hero=document.createElement('div');hero.className='proposal-hero';hero.innerHTML='<div><span class="proposal-eyebrow">PROPUESTA · EXPERIENCIA INTERACTIVA</span><h2>Prueba una llamada.<br>Descubre el nuevo IVR.</h2><p>Dos rutas de seguridad desde el inicio. Menos pasos para encontrar ayuda y una autorización específica antes de consultar tus alertas.</p><button class="proposal-start" type="button">Probar consumo no reconocido →</button></div><ol class="proposal-path"><li><b>01 · Explora</b>Recorre el simulador.</li><li><b>02 · Comprende</b>Separa ingreso, validación facial y token.</li><li><b>03 · Explora los flujos</b>Consulta los recorridos propuestos.</li></ol>';
  const nav=document.createElement('nav');nav.className='proposal-nav';nav.setAttribute('aria-label','Explorar la propuesta');
- const groups=[['interactiva','Probar el IVR'],['seguridad','Autenticación'],['flujos','Flujos propuestos'],['datos','Data y decisiones']];const panels={};
+ const groups=[['interactiva','Probar el IVR'],['seguridad','Autenticación'],['flujos','Flujos propuestos']];const panels={};
  root.append(hero,nav);
  groups.forEach(([key,label])=>{const btn=document.createElement('button');btn.type='button';btn.textContent=label;btn.dataset.proposalTab=key;btn.setAttribute('aria-controls','proposal-panel-'+key);btn.setAttribute('aria-pressed','false');nav.append(btn);const panel=document.createElement('div');panel.id='proposal-panel-'+key;panel.dataset.proposalPanel=key;panel.className='proposal-panel';panel.hidden=true;panels[key]=panel;root.append(panel);btn.addEventListener('click',()=>select(key));});
  panels.interactiva.innerHTML='<h3 class="proposal-panel-title">La propuesta, en una llamada</h3><p class="proposal-panel-intro">Usa los atajos del simulador. En consumo no reconocido: DNI demo 12345678 · clave de App 159357. La huella y el rostro se simulan, sin activar tu cámara.</p>';
  panels.flujos.innerHTML='<h3 class="proposal-panel-title">Dos gestiones, recorridos diferentes</h3><p class="proposal-panel-intro">Consulta las rutas principales, sus resultados y las excepciones.</p>';
- panels.datos.innerHTML='<h3 class="proposal-panel-title">Qué sustenta el rediseño</h3><p class="proposal-panel-intro">Volumen, prioridades, decisiones y métricas reunidos en un solo lugar.</p>';
  panels.seguridad.innerHTML='<h3 class="proposal-panel-title">Entrar no es autorizar</h3><p class="proposal-panel-intro">El ingreso abre la App. La autorización posterior habilita una consulta concreta durante la llamada.</p><div class="proposal-security-steps"><article class="proposal-security-step"><span>PASO PREVIO · SESIÓN</span><h4>Ingresa a la App</h4><p>Con clave o con biometría, según tu preferencia. Aún no se habilitan movimientos al IVR.</p></article><article class="proposal-security-step"><span>FACTOR 1 · INHERENCIA</span><h4>Valida tu rostro</h4><p>Revisa la solicitud y completa una nueva validación facial para esa consulta, incluso si ingresaste con rostro.</p></article><article class="proposal-security-step"><span>FACTOR 2 · POSESIÓN</span><h4>Ingresa el token</h4><p>El aviso interno aparece 10 segundos. Tienes 60 segundos para ingresar el código. Nunca se dicta al IVR.</p></article></div><details class="proposal-faq" open><summary>¿Por qué se valida el rostro después de iniciar sesión?</summary><p>Esta propuesta exige una comprobación nueva para autorizar la consulta. No se reutiliza automáticamente la biometría del ingreso. Repetir el rostro no crea dos factores: la combinación de la consulta es facial más token del dispositivo afiliado.</p></details><details class="proposal-faq"><summary>¿Qué ocurre si falla o vence el token?</summary><p>No se habilitan movimientos. La demo permite hasta dos renovaciones, sin reiniciar los intentos incorrectos. Con tres fallos se deriva a atención especializada.</p></details><details class="proposal-faq"><summary>Alcance y condiciones de implementación</summary><p>La autorización cubre consultar las alertas durante esta llamada, no desbloquear tarjetas. El servidor debe verificar los factores, el dispositivo afiliado, el alcance, el vencimiento y el uso único. Una maqueta o un código mostrado en pantalla no acreditan cumplimiento SBS. Exigir nuevamente el rostro es una decisión de este diseño, no una regla universal.</p></details>';
- original.forEach(el=>{if(el.id==='cnr-propuesta'||el.id==='coord-propuesta')panels.flujos.append(el);else if(el.id==='prop-view-sim'||el.id==='prop-view-flow'||el.classList.contains('sim-tabs-row'))panels.interactiva.append(el);else panels.datos.append(el);});
+ original.forEach(el=>{if(el.id==='cnr-propuesta'||el.id==='coord-propuesta')panels.flujos.append(el);else if(el.id==='prop-view-sim'||el.id==='prop-view-flow'||el.classList.contains('sim-tabs-row'))panels.interactiva.append(el);else el.remove();});
  function select(key){groups.forEach(([k])=>{panels[k].hidden=k!==key;nav.querySelector('[data-proposal-tab="'+k+'"]').setAttribute('aria-pressed',String(k===key));});}
  hero.querySelector('button').addEventListener('click',()=>{select('interactiva');const sim=root.querySelector('[data-prop-view="sim"]');if(sim)sim.click();const frame=document.getElementById('propuesta-iframe');try{const btn=[...frame.contentDocument.querySelectorAll('button')].find(b=>b.textContent.trim()==='Consumo no reconocido');if(btn)btn.click();}catch(e){}panels.interactiva.scrollIntoView({behavior:'smooth',block:'start'});});
  select('interactiva');
